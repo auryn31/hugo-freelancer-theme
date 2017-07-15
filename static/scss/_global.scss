@@ -207,7 +207,13 @@ section.success a:focus,
 section.success a:active,
 section.success a.active {
     outline: 0;
-    color: $theme-primary;
+    color: $theme-primary;    
+}
+section.success a.btn {
+    color: $white;
+}
+section.success a.btn:hover {
+    color: $theme-success;
 }
 
 @media(max-width:767px) {
@@ -241,7 +247,7 @@ section.success a.active {
     width: 100%;
     height: 100%;
     opacity: 0;
-    background: rgba(24,188,156,.9);
+    background: rgba($theme-success,.9);
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
@@ -526,6 +532,10 @@ img {
     display: block;
     height: auto;
     max-width: 100%;
+}
+
+.img-header {
+    max-width: 50% !important;
 }
 
 .img-rounded {
