@@ -2,22 +2,20 @@
 
 // Gray and Brand Colors for use across theme
 
-$theme-primary:    #1E1E2D; //dark gunmetal
+$theme-primary:   #99d3df; //   #1E1E2D  dark gunmetal
 $waterspout: #95F9E3; //waterspout
-$theme-success: #49D49D; //eucalyptus ;#18bc9c
+$theme-success: #88BBD6; // #49D49D eucalyptus ;#18bc9c
 $light-gray: #f5f5f6;
-$gray: #ededf0;
+/*$gray: #ededf0;*/
 $white: #fff;
-
-//$theme-success:    #f2b632;
-$theme-dark: #252839;
-$dark-gray: #677077;
-
-$yellow: #f2b632;
 
 $gray-base:        #000;
 $gray-darker:      lighten($gray-base, 13.5%); // #222
 $gray-dark:        lighten($gray-base, 20%);   // #333
-/*$gray:             lighten($gray-base, 33.5%); // #555*/
+$gray:             lighten($gray-base, 33.5%); // #555
 $gray-light:       lighten($gray-base, 46.7%); // #777
 $gray-lighter:     lighten($gray-base, 93.5%); // #eee
+
+$font-family-body: 'Quicksand', sans-serif;
+$font-family-header: 'Quicksand', sans-serif;
+$font-family-navbar: 'Quicksand', sans-serif;

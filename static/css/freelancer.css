@@ -3,14 +3,15 @@
  * Copyright 2013-2017 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-freelancer/blob/master/LICENSE)
  */
-/*$gray:             lighten($gray-base, 33.5%); // #555*/
+/*$gray: #ededf0;*/
 /*!
  * Start Bootstrap - Freelancer Bootstrap Theme (http://startbootstrap.com)
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 body {
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  font-family: "Quicksand", sans-serif; }
 
 p {
   font-size: 20px; }
@@ -24,7 +25,7 @@ a:focus,
 a:active,
 a.active {
   outline: 0;
-  color: #49D49D; }
+  color: #88BBD6; }
 
 h1,
 h2,
@@ -33,7 +34,7 @@ h4,
 h5,
 h6 {
   text-transform: uppercase;
-  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: "Quicksand", sans-serif;
   font-weight: 700;
   margin-top: 0px; }
 
@@ -61,13 +62,13 @@ hr.star-light {
 
 hr.star-light:after {
   color: #fff;
-  background-color: #49D49D; }
+  background-color: #88BBD6; }
 
 hr.star-primary {
-  border-color: #1E1E2D; }
+  border-color: #99d3df; }
 
 hr.star-primary:after {
-  color: #1E1E2D;
+  color: #99d3df;
   background-color: #fff; }
 
 .img-centered {
@@ -76,7 +77,8 @@ hr.star-primary:after {
 header {
   text-align: center;
   color: #fff;
-  background: #49D49D; }
+  background: #88BBD6;
+  min-height: 100vh; }
 
 header .container {
   padding-top: 100px;
@@ -89,9 +91,9 @@ header img {
 header .intro-text .name {
   display: block;
   text-transform: uppercase;
-  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: "Quicksand", sans-serif;
   font-size: 2em;
-  font-weight: 700; }
+  font-weight: 500; }
 
 header .intro-text .skills {
   font-size: 1.25em;
@@ -114,6 +116,7 @@ header .intro-text .skills {
     transition: padding .3s; }
   .navbar-fixed-top .navbar-brand {
     font-size: 2em;
+    font-weight: lighter;
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
     transition: all .3s; }
@@ -124,14 +127,21 @@ header .intro-text .skills {
 
 .navbar {
   text-transform: uppercase;
-  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: "Quicksand", sans-serif;
   font-weight: 700; }
 
 .navbar a:focus {
   outline: 0; }
 
 .navbar-default .navbar-nav > .active > a {
-  background-color: #49D49D; }
+  background-color: #88BBD6; }
+
+.navbar-default .navbar-nav > .active > a:hover {
+  background-color: #88BBD6; }
+
+.navbar-default .navbar-nav > li > a:hover {
+  background-color: #88BBD6;
+  color: #fff; }
 
 .navbar .navbar-nav {
   letter-spacing: 1px; }
@@ -142,7 +152,7 @@ header .intro-text .skills {
 .navbar-default,
 .navbar-inverse {
   border: 0;
-  background-color: #1E1E2D; }
+  background-color: #99d3df; }
 
 section {
   padding: 100px 0; }
@@ -153,7 +163,7 @@ section h2 {
 
 section.success {
   color: #fff;
-  background: #49D49D; }
+  background: #88BBD6; }
 
 section.success a,
 section.success a:hover,
@@ -161,13 +171,17 @@ section.success a:focus,
 section.success a:active,
 section.success a.active {
   outline: 0;
-  color: #1E1E2D; }
+  color: #99d3df; }
 
 @media (max-width: 767px) {
   section {
     padding: 75px 0; }
   section.first {
     padding-top: 75px; } }
+
+#portfolio {
+  min-height: 100vh;
+  color: #88BBD6; }
 
 #portfolio .portfolio-item {
   right: 0;
@@ -229,7 +243,7 @@ section.success a.active {
 .btn-outline:active,
 .btn-outline.active {
   border: solid 2px #fff;
-  color: #49D49D;
+  color: #88BBD6;
   background: #fff; }
 
 .floating-label-form-group {
@@ -276,7 +290,7 @@ section.success a.active {
   opacity: 1; }
 
 .floating-label-form-group-with-focus label {
-  color: #49D49D; }
+  color: #88BBD6; }
 
 form .row:first-child .floating-label-form-group {
   border-top: 1px solid #f5f5f6; }
@@ -289,14 +303,22 @@ footer h3 {
 
 footer .footer-above {
   padding-top: 50px;
-  background-color: #1E1E2D; }
+  background-color: #99d3df; }
 
 footer .footer-col {
   margin-bottom: 50px; }
 
 footer .footer-below {
   padding: 25px 0;
-  background-color: #1E1E2D; }
+  background-color: #99d3df; }
+
+.btn-success {
+  background-color: #88BBD6;
+  border-color: #88BBD6; }
+
+.btn-success:hover {
+  background-color: #99d3df;
+  border-color: #99d3df; }
 
 .btn-social {
   display: inline-block;
@@ -368,7 +390,7 @@ footer .footer-below {
   width: 1px;
   height: 75px;
   margin-left: 35px;
-  background-color: #1E1E2D;
+  background-color: #99d3df;
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   transform: rotate(45deg); }
@@ -377,7 +399,7 @@ footer .footer-below {
   z-index: 1052;
   width: 1px;
   height: 75px;
-  background-color: #1E1E2D;
+  background-color: #99d3df;
   -webkit-transform: rotate(90deg);
   -ms-transform: rotate(90deg);
   transform: rotate(90deg); }
@@ -386,16 +408,20 @@ footer .footer-below {
   display: none;
   opacity: 0; }
 
+#about {
+  min-height: 100vh; }
+
 #curriculum {
+  min-height: 100vh;
   background-color: white;
-  color: #252839;
+  color: #99d3df;
   /*  hr.star-light:after {
         background-color: white;
     }*/ }
   #curriculum h2 {
-    color: #252839; }
+    color: #99d3df; }
   #curriculum h2 span {
-    color: #252839; }
+    color: #99d3df; }
   #curriculum .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon {
     background-color: #f5f5f6; }
 
@@ -412,7 +438,7 @@ img {
 
 .img-thumbnail {
   background-color: #fff;
-  border: 1px solid #ededf0;
+  border: 1px solid #555555;
   border-radius: 3px;
   display: inline-block;
   height: auto;
@@ -551,8 +577,8 @@ img {
   font-size: 12px; }
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon {
-  background: #1E1E2D !important;
-  color: #1E1E2D;
+  background: #99d3df !important;
+  color: #99d3df;
   display: block;
   width: 40px;
   height: 40px;
@@ -572,7 +598,7 @@ img {
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.bg-primary {
   background-color: #303641;
-  color: #1E1E2D; }
+  color: #99d3df; }
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label {
   position: relative;
@@ -600,11 +626,11 @@ img {
   margin-left: -9px; }
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label h2, .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label p {
-  color: #1E1E2D;
-  font-family: "Noto Sans",sans-serif;
-  font-size: 12px;
-  margin: 0;
-  line-height: 1.428571429; }
+  color: #99d3df;
+  font-family: "Quicksand", sans-serif;
+  font-size: normal;
+  font-weight: lighter;
+  margin: 0; }
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label p + p {
   margin-top: 15px; }

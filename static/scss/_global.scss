@@ -6,6 +6,7 @@
 
 body {
     overflow-x: hidden;
+    font-family: $font-family-body;
 }
 
 p {
@@ -32,9 +33,9 @@ h4,
 h5,
 h6 {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: $font-family-header;
     font-weight: 700;
-    margin-top: 0px;
+    margin-top: 0px;    
 }
 
 hr.star-light,
@@ -84,6 +85,7 @@ header {
     text-align: center;
     color: $white;
     background: $theme-success;
+    min-height: 100vh;
 }
 
 header .container {
@@ -99,9 +101,9 @@ header img {
 header .intro-text .name {
     display: block;
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: $font-family-header;
     font-size: 2em;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 header .intro-text .skills {
@@ -134,6 +136,7 @@ header .intro-text .skills {
 
     .navbar-fixed-top .navbar-brand {
         font-size: 2em;
+        font-weight: lighter;
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s;
@@ -150,7 +153,7 @@ header .intro-text .skills {
 
 .navbar {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: $font-family-navbar;
     font-weight: 700;
 }
 
@@ -159,6 +162,15 @@ header .intro-text .skills {
 }
 .navbar-default .navbar-nav>.active>a {
     background-color: $theme-success;
+}
+
+.navbar-default .navbar-nav>.active>a:hover {
+    background-color: $theme-success;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    background-color: $theme-success;
+    color: $white;
 }
 
 .navbar .navbar-nav {
@@ -206,6 +218,10 @@ section.success a.active {
     section.first {
         padding-top: 75px;
     }
+}
+#portfolio {
+    min-height: 100vh;
+    color: $theme-success;
 }
 
 #portfolio .portfolio-item {
@@ -361,6 +377,15 @@ footer .footer-below {
     background-color: $theme-primary;
 }
 
+.btn-success {
+    background-color: $theme-success;
+    border-color: $theme-success;    
+}
+.btn-success:hover {
+        background-color: $theme-primary;
+        border-color: $theme-primary;
+    }
+
 .btn-social {
     display: inline-block;
     width: 50px;
@@ -463,17 +488,22 @@ footer .footer-below {
     opacity: 0;
 }
 
+#about {
+    min-height: 100vh;
+}
+
 
 #curriculum {
+    min-height: 100vh;
     background-color: white;
-    color: $theme-dark;
+    color: $theme-primary;
 
     h2 {
-        color: $theme-dark;
+        color: $theme-primary;
     }
 
     h2 span{
-        color: $theme-dark;
+        color: $theme-primary;
     }
 
   /*  hr.star-light:after {
@@ -726,10 +756,10 @@ img {
 
     .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label h2, .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label p {
         color: $theme-primary;
-        font-family: "Noto Sans",sans-serif;
-        font-size: 12px;
-        margin: 0;
-        line-height: 1.428571429;
+        font-family: $font-family-body;
+        font-size: normal;
+        font-weight: lighter;        
+        margin: 0;        
     }
 
     .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label p + p {
