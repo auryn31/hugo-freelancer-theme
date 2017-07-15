@@ -155,7 +155,10 @@ header .intro-text .skills {
 }
 
 .navbar a:focus {
-    outline: 0;
+    outline: 0;    
+}
+.navbar-default .navbar-nav>.active>a {
+    background-color: $theme-success;
 }
 
 .navbar .navbar-nav {

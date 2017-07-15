@@ -130,6 +130,9 @@ header .intro-text .skills {
 .navbar a:focus {
   outline: 0; }
 
+.navbar-default .navbar-nav > .active > a {
+  background-color: #49D49D; }
+
 .navbar .navbar-nav {
   letter-spacing: 1px; }
 

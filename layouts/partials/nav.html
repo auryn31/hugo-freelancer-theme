@@ -8,6 +8,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
             </button>
             <a class="navbar-brand" href="#page-top">{{ with .Site.Params.navigation.brand }}{{ . }}{{ end }}</a>
         </div>
@@ -19,6 +20,9 @@
                 </li>
                 <li class="page-scroll">
                     <a href="#portfolio">{{ with .Site.Params.portfolio.title }}{{ . }}{{ end }}</a>
+                </li>
+                <li class="page-scroll">
+                    <a href="#curriculum">{{ with .Site.Params.curriculum.title }}{{ . }}{{ end }}</a>
                 </li>
                 <li class="page-scroll">
                     <a href="#about">{{ with .Site.Params.about.title }}{{ . }}{{ end }}</a>
