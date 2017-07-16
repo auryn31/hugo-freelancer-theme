@@ -227,7 +227,7 @@ section.success a.btn:hover {
 }
 #portfolio {
     min-height: 100vh;
-    color: $theme-success;
+    color: $theme-primary;
 }
 
 #portfolio .portfolio-item {
@@ -501,7 +501,7 @@ footer .footer-below {
 
 #curriculum {
     min-height: 100vh;
-    background-color: white;
+    background-color: $curriculum-background;
     color: $theme-primary;
 
     h2 {

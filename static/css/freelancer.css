@@ -25,7 +25,7 @@ a:focus,
 a:active,
 a.active {
   outline: 0;
-  color: #88BBD6; }
+  color: #328CC1; }
 
 h1,
 h2,
@@ -62,13 +62,13 @@ hr.star-light {
 
 hr.star-light:after {
   color: #fff;
-  background-color: #88BBD6; }
+  background-color: #328CC1; }
 
 hr.star-primary {
-  border-color: #99d3df; }
+  border-color: #083C5D; }
 
 hr.star-primary:after {
-  color: #99d3df;
+  color: #083C5D;
   background-color: #fff; }
 
 .img-centered {
@@ -77,7 +77,7 @@ hr.star-primary:after {
 header {
   text-align: center;
   color: #fff;
-  background: #88BBD6;
+  background: #328CC1;
   min-height: 100vh; }
 
 header .container {
@@ -134,13 +134,13 @@ header .intro-text .skills {
   outline: 0; }
 
 .navbar-default .navbar-nav > .active > a {
-  background-color: #88BBD6; }
+  background-color: #328CC1; }
 
 .navbar-default .navbar-nav > .active > a:hover {
-  background-color: #88BBD6; }
+  background-color: #328CC1; }
 
 .navbar-default .navbar-nav > li > a:hover {
-  background-color: #88BBD6;
+  background-color: #328CC1;
   color: #fff; }
 
 .navbar .navbar-nav {
@@ -152,7 +152,7 @@ header .intro-text .skills {
 .navbar-default,
 .navbar-inverse {
   border: 0;
-  background-color: #99d3df; }
+  background-color: #083C5D; }
 
 section {
   padding: 100px 0; }
@@ -163,7 +163,7 @@ section h2 {
 
 section.success {
   color: #fff;
-  background: #88BBD6; }
+  background: #328CC1; }
 
 section.success a,
 section.success a:hover,
@@ -171,13 +171,13 @@ section.success a:focus,
 section.success a:active,
 section.success a.active {
   outline: 0;
-  color: #99d3df; }
+  color: #083C5D; }
 
 section.success a.btn {
   color: #fff; }
 
 section.success a.btn:hover {
-  color: #88BBD6; }
+  color: #328CC1; }
 
 @media (max-width: 767px) {
   section {
@@ -187,7 +187,7 @@ section.success a.btn:hover {
 
 #portfolio {
   min-height: 100vh;
-  color: #88BBD6; }
+  color: #083C5D; }
 
 #portfolio .portfolio-item {
   right: 0;
@@ -204,7 +204,7 @@ section.success a.btn:hover {
   width: 100%;
   height: 100%;
   opacity: 0;
-  background: rgba(136, 187, 214, 0.9);
+  background: rgba(50, 140, 193, 0.9);
   -webkit-transition: all ease .5s;
   -moz-transition: all ease .5s;
   transition: all ease .5s; }
@@ -249,7 +249,7 @@ section.success a.btn:hover {
 .btn-outline:active,
 .btn-outline.active {
   border: solid 2px #fff;
-  color: #88BBD6;
+  color: #328CC1;
   background: #fff; }
 
 .floating-label-form-group {
@@ -296,7 +296,7 @@ section.success a.btn:hover {
   opacity: 1; }
 
 .floating-label-form-group-with-focus label {
-  color: #88BBD6; }
+  color: #328CC1; }
 
 form .row:first-child .floating-label-form-group {
   border-top: 1px solid #f5f5f6; }
@@ -309,22 +309,22 @@ footer h3 {
 
 footer .footer-above {
   padding-top: 50px;
-  background-color: #99d3df; }
+  background-color: #083C5D; }
 
 footer .footer-col {
   margin-bottom: 50px; }
 
 footer .footer-below {
   padding: 25px 0;
-  background-color: #99d3df; }
+  background-color: #083C5D; }
 
 .btn-success {
-  background-color: #88BBD6;
-  border-color: #88BBD6; }
+  background-color: #328CC1;
+  border-color: #328CC1; }
 
 .btn-success:hover {
-  background-color: #99d3df;
-  border-color: #99d3df; }
+  background-color: #083C5D;
+  border-color: #083C5D; }
 
 .btn-social {
   display: inline-block;
@@ -396,7 +396,7 @@ footer .footer-below {
   width: 1px;
   height: 75px;
   margin-left: 35px;
-  background-color: #99d3df;
+  background-color: #083C5D;
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   transform: rotate(45deg); }
@@ -405,7 +405,7 @@ footer .footer-below {
   z-index: 1052;
   width: 1px;
   height: 75px;
-  background-color: #99d3df;
+  background-color: #083C5D;
   -webkit-transform: rotate(90deg);
   -ms-transform: rotate(90deg);
   transform: rotate(90deg); }
@@ -419,15 +419,15 @@ footer .footer-below {
 
 #curriculum {
   min-height: 100vh;
-  background-color: white;
-  color: #99d3df;
+  background-color: #fff;
+  color: #083C5D;
   /*  hr.star-light:after {
         background-color: white;
     }*/ }
   #curriculum h2 {
-    color: #99d3df; }
+    color: #083C5D; }
   #curriculum h2 span {
-    color: #99d3df; }
+    color: #083C5D; }
   #curriculum .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon {
     background-color: #f5f5f6; }
 
@@ -586,8 +586,8 @@ img {
   font-size: 12px; }
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon {
-  background: #99d3df !important;
-  color: #99d3df;
+  background: #083C5D !important;
+  color: #083C5D;
   display: block;
   width: 40px;
   height: 40px;
@@ -607,7 +607,7 @@ img {
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.bg-primary {
   background-color: #303641;
-  color: #99d3df; }
+  color: #083C5D; }
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label {
   position: relative;
@@ -635,7 +635,7 @@ img {
   margin-left: -9px; }
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label h2, .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label p {
-  color: #99d3df;
+  color: #083C5D;
   font-family: "Quicksand", sans-serif;
   font-size: normal;
   font-weight: lighter;
